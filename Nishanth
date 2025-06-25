@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nishanth | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #000428, #004e92);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #00bfff;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    nav {
+      background: #111;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #00bfff;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #00bfff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #00bfff;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #0095cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Nishanth S</h1>
+  <p>Front-End Developer | Coimbatore, Tamil Nadu</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="section" id="about">
+  <h2>About Me</h2>
+  <p>Aspiring front-end developer with skills in C++, Python, CSS, and JavaScript, currently pursuing a Diploma in Information Technology. Passionate about building efficient, user-friendly applications and growing with tech teams.</p>
+  <a href="Nishanth_CV.pdf" class="btn" download>📄 Download CV</a>
+</section>
+
+<section class="section" id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>
+      <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML Logo" style="height:24px;vertical-align:middle;margin-right:4px;">
+      HTML
+      <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS Logo" style="height:24px;vertical-align:middle;margin-left:12px;margin-right:4px;">
+      CSS
+      <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript Logo" style="height:24px;vertical-align:middle;margin-left:12px;margin-right:4px;">
+      JavaScript
+      <img src="https://img.icons8.com/?size=100&id=2T6TKY6whzgV&format=png&color=000000" alt="C++ Logo" style="height:24px;vertical-align:middle;margin-left:12px;margin-right:4px;">
+      C++
+      <img src="https://img.icons8.com/?size=100&id=hGdCwhSHUe6L&format=png&color=000000" alt="Python Logo" style="height:24px;vertical-align:middle;margin-left:12px;margin-right:4px;">
+      Python
+      <img src="https://img.icons8.com/?size=100&id=mhwmyz1eu7T5&format=png&color=000000" alt="C# Logo" style="height:24px;vertical-align:middle;margin-left:12px;margin-right:4px;">
+      C#
+      <img src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000" alt="MySQL Logo" style="height:24px;vertical-align:middle;margin-left:12px;margin-right:4px;">
+      MySQL
+    </li>
+    <li>Web Development Basics</li>
+    <li>Basic CNC Programming</li>
+  </ul>
+</section>
+
+<section class="section" id="project">
+  <h2>Project</h2>
+  <p><strong>Customised Compiler for Python</strong><br>A tool designed to interpret Python code with added features to help beginners learn and debug more easily.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:Nishanthnish89@email.com" style="color:#00bfff">Nishanthnish89@email.com</a></p>
+  <p><strong>Phone:</strong> 9345686804</p>
+  <p><strong>GitHub</strong> <a href="https://github.com/Nishanth230856?tab=projects" style="color: #00bfff;">github</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Nishanth S | Created With Love❤️In HTML CSS</p>
+</footer>
+
+</body>
+</html>
 
